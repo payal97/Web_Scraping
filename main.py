@@ -2,25 +2,6 @@ import os
 from urllib.parse import urlparse
 import twitter,medium
 
-# Twitter scraping code
-def scrape_twitter(url):
-    # Your Twitter scraping code here
-    # ...
-    # Extract and return links
-    links = []
-    # Code to extract links
-    return links
-
-# Medium scraping code
-def scrape_medium(url):
-    # Your Medium scraping code here
-    # ...
-    # Extract and return links
-    links = []
-    # Code to extract links
-    return links
-
-# Get host name and unique key from URL
 def get_host_and_key(url):
     parsed_url = urlparse(url)
     host = parsed_url.hostname
